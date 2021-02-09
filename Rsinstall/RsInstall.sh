@@ -6,12 +6,12 @@ sudo apt-get -y install default-jdk | dialog --title "Installing Java JDK" --inf
 
 dialog --title "Creating Folders" --infobox "\nPlease wait\n" 5 50
 
-mkdir /home/pi/.jagex_cache_32
-mkdir /home/pi/.jagex_cache_32/runescape
-mkdir /home/pi/.jagex
-mkdir /home/pi/.jagex/runescape
-mkdir /home/pi/.jagex/runescape/bin
-mkdir /home/pi/.jagex/runescape/images
+mkdir /home/aaronl/.jagex_cache_32
+mkdir /home/aaronl/.jagex_cache_32/runescape
+mkdir /home/aaronl/.jagex
+mkdir /home/aaronl/.jagex/runescape
+mkdir /home/aaronl/.jagex/runescape/bin
+mkdir /home/aaronl/.jagex/runescape/images
 
 dialog --title "Downloading & Installing Client" --infobox "\nPlease wait\n" 5 50
 cd /home/pi/.jagex/runescape/bin || exit
